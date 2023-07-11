@@ -1,9 +1,6 @@
-package terceirodesafio;
+package desafio03;
 
-import java.util.HashMap;
 import java.util.Scanner;
-import java.util.Map;
-import java.util.Set;
 
 public class App {
     public static <Map> void main(String[] args) {

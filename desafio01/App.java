@@ -1,4 +1,4 @@
-package primeirodesafio;
+package desafio01;
 import java.util.*;
 public class App {
     public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class App {
          * para armazenamento de valor atual
          */
         List<Integer> geral = new ArrayList<>();
-        int numero = 0;
+        int numero;
         /* for com número de interações fornecido pelo usuário */
         for (int i = 1; i <= quantity; i++) {
             System.out.println("Escreva o próximo número: ");
