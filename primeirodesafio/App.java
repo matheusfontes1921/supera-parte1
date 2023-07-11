@@ -1,11 +1,8 @@
 package primeirodesafio;
-
 import java.util.*;
-import java.util.stream.Collectors;
-
 public class App {
     public static void main(String[] args) {
-        /**
+        /*
          * Considerando a entrada de valores inteiros não negativos, ordene estes valores segundo
          * o seguinte critério:
          * • Primeiro os Pares
@@ -25,8 +22,5 @@ public class App {
         }
         geral.stream().filter(x -> x % 2 == 0).sorted().forEach(System.out::println);
         geral.stream().filter(x -> x % 2 != 0).sorted(Comparator.reverseOrder()).forEach(System.out::println);
-
-
-
     }
 }
