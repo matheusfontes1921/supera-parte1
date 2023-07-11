@@ -1,16 +1,17 @@
 package desafio01;
 import java.util.*;
+
+/*
+ * Considerando a entrada de valores inteiros não negativos, ordene estes valores segundo
+ * o seguinte critério:
+ * • Primeiro os Pares
+ * • Depois os Ímpares
+ * Sendo que deverão ser apresentados os pares em ordem crescente e depois os ímpares
+ * em ordem decrescente.
+ */
+
 public class App {
     public static void main(String[] args) {
-        /*
-         * Considerando a entrada de valores inteiros não negativos, ordene estes valores segundo
-         * o seguinte critério:
-         * • Primeiro os Pares
-         * • Depois os Ímpares
-         * Sendo que deverão ser apresentados os pares em ordem crescente e depois os ímpares
-         * em ordem decrescente.
-         */
-
         /* inicialização do scanner e leitura da quantidade de números */
         Scanner sc = new Scanner(System.in);
         System.out.println("Quantos números serão fornecidos? ");

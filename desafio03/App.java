@@ -2,12 +2,13 @@ package desafio03;
 
 import java.util.Scanner;
 
+/*
+ * Dado um array de inteiros e um valor alvo, determine o número de pares entre os elementos
+ * do array em que a sua diferença seja igual ao valor alvo.
+ */
+
 public class App {
-    public static <Map> void main(String[] args) {
-        /*
-         * Dado um array de inteiros e um valor alvo, determine o número de pares entre os elementos
-         * do array em que a sua diferença seja igual ao valor alvo.
-         */
+    public static void main(String[] args) {
         /* Leitura de variáveis e construção dos valores do array */
         Scanner sc = new Scanner(System.in);
         System.out.println("Tamanho do array: ");
